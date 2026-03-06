@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # --- SECURE CONFIGURATION ---
 # These pull from the "Environment" tab you set up in Render
-TL_URL   = "https://live.tradelocker.com/backend-api"
+TL_URL   = "https://demo.tradelocker.com/backend-api"
 EMAIL    = os.environ.get("TL_EMAIL")
 PASSWORD = os.environ.get("TL_PASSWORD")
 SERVER   = os.environ.get("TL_SERVER", "Funder Pro")
